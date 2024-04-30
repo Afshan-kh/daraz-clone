@@ -1,0 +1,225 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+
+}
+.nav1{
+    background-color:orangered;
+    width: 100%;
+    height: 25px;
+    color: aliceblue;
+
+    
+}
+.nava{
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.nav2{
+    background-color:orangered;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+
+    
+    
+    
+}
+#logo{
+    width: 170px;
+    cursor: pointer;
+    
+}
+
+.nav2search{
+    width: 750px;
+    height: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 4px solid white;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+.navinput{
+    
+    width: 750px;
+    height: 35px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: rgb(255, 255, 255);
+} 
+.user{
+font-size: 15px;
+}
+#signup{
+    font-size: 20px;
+}
+/* *******************banner*********************** */
+
+.banner{
+    width: 90%;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 5%;
+    display: flex;
+}
+.items{
+    width: 21%;
+    height: 350px;
+    border: 1px solid rgb(138, 131, 131);
+    margin-right: 2%;
+    background-color: white;
+    border-radius: 2px;
+
+}
+.banimg {
+    width: 80%;
+    height: 350px;
+    
+    background-image: url(imagesdaraz/banner4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banimg:hover{
+    background-image: url(imagesdaraz/banner2.jpg);
+}
+li{
+    font-size: 18px;
+
+}
+
+.posl{
+    position: relative;
+    top: 180px;
+    left: 10px;
+
+}
+.posr{
+    position: relative;
+    top: 180px;
+    left: 950px;
+
+}
+
+/* ***********************menu*************** */
+
+.menu{
+
+    width: 90%;
+    height: 80px;
+    background-color: #f1cebe;
+    display: flex;
+    margin-left: 5%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+    margin-top:10px ;
+    border-radius: 8px;
+}
+
+.menu2{
+    display: flex;
+    width: 90%;
+    height: 190px;
+    margin-left: 5%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+
+}
+h3{
+    align-items: center;
+}
+
+/* *************flash sale************** */
+
+.fsale{
+    width: 90%;
+    height: 375px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+/* ****************************catogories ************************/
+
+.Catogories{
+    width: 90%;
+    height: 250px;
+    background-color: rgb(248, 247, 244);
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5%
+    
+
+}
+/* **************j sale************ */
+
+.jfy{
+    width: 90%;
+    height: 255px;
+    background-color: rgb(248, 247, 244);
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5%
+    
+}
+
+.footer-container{
+    background-color: rgb(243, 247, 247);
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 20px;
+    
+}
+.footer {
+width: 1000px;
+height: 250px;
+background-color: rgb(247, 245, 244);
+color: rgb(233, 226, 226);
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin: 10px;
+padding: 20px;
+font-weight: bold;
+
+}
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    }
+    
+    .footer-heading h2{
+        margin-bottom: 2px;
+    
+    }
+    .footer-heading a{
+        color: black;
+        text-decoration: none;
+        margin-bottom: 1px;
+    
+    }
+    
+    .footer-heading a:hover {
+        color: black;
+        transition: 0.3 ease-out;
+    }
+    .footer-email{
+    
+        width: 4px;
+        border-radius: 2px;
+        outline: 1px;
+        padding-left: 5px;
+    }
+
